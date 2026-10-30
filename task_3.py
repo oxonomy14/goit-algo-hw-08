@@ -37,9 +37,9 @@ def min_cable_cost(lengths):
     return total_cost
 
 
-# Перевірка
-cables = [4, 3, 2, 6]
+# Перевіряємо
+cables = [4, 3, 2, 6, 10,23]
 
 result = min_cable_cost(cables)
 
-print(f"Мінімальні витрати на з'єднання кабелів: {result}")
+print(f"Мінімальні витрати на з'єднання кабелів: {result} умовних одиниць")
